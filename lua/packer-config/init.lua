@@ -10,6 +10,8 @@ return require'packer'.startup(function()
     use 'kyazdani42/nvim-tree.lua'
     use 'nvim-lualine/lualine.nvim'
     use 'romgrk/barbar.nvim'
+    use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+    use 'p00f/nvim-ts-rainbow'
 
     -- LSP plugins
     use 'neovim/nvim-lspconfig'

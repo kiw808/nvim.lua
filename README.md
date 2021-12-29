@@ -8,6 +8,8 @@
 - [lspkind-nvim](https://github.com/onsails/lspkind-nvim)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [barbar](https://github.com/romgrk/barbar.nvim)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+    - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
 
 **Language servers**
 
