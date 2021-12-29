@@ -10,7 +10,9 @@ map('n', '<C-j>', '<C-w>j', opts)
 map('n', '<C-k>', '<C-w>k', opts)
 
 -- Nvim-tree -- 
-map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
+-- map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
+map('n', '<leader>e', "<cmd>lua require('barbar-config.tree').open()<CR>", opts)
+map('n', '<leader>ec', "<cmd>lua require('barbar-config.tree').close()<CR>", opts)
 
 -- Barbar --
 -- Move to previous/next
