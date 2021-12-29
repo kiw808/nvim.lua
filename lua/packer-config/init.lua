@@ -8,4 +8,6 @@ return require'packer'.startup(function()
     -- IDE
     use 'kyazdani42/nvim-web-devicons'
     use 'kyazdani42/nvim-tree.lua'
+
+    use 'neovim/nvim-lspconfig'
 end)
