@@ -12,6 +12,7 @@ return require'packer'.startup(function()
     use 'romgrk/barbar.nvim'
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
     use 'p00f/nvim-ts-rainbow'
+    use 'windwp/nvim-autopairs'
 
     -- LSP plugins
     use 'neovim/nvim-lspconfig'

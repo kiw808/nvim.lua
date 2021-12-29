@@ -14,6 +14,7 @@
 - [barbar](https://github.com/romgrk/barbar.nvim)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
     - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 
 **Language servers**
 
