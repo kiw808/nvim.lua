@@ -3,6 +3,12 @@ local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = ' '
 
+-- Move between windows
+map('n', '<C-h>', '<C-w>h', opts)
+map('n', '<C-l>', '<C-w>l', opts)
+map('n', '<C-j>', '<C-w>j', opts)
+map('n', '<C-k>', '<C-w>k', opts)
+
 -- Nvim Tree toggle
 map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
 
