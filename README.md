@@ -3,6 +3,19 @@
 ## Plugins
 
 - [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [lspkind-nvim](https://github.com/onsails/lspkind-nvim)
+
+**Language servers**
+
+```shell
+# pyright
+npm i -g pyright
+
+# tsserver
+npm i -g typescript typescript-language-server
+```
 
 ## Colorschemes
 
