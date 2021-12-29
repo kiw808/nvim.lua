@@ -1,5 +1,9 @@
 # My Neovim configuration in lua
 
+**Prerequisites**
+- Neovim >= 0.6.0
+- npm
+
 ## Plugins
 
 - [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
