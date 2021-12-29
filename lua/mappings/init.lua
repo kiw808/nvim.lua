@@ -9,11 +9,10 @@ map('n', '<C-l>', '<C-w>l', opts)
 map('n', '<C-j>', '<C-w>j', opts)
 map('n', '<C-k>', '<C-w>k', opts)
 
--- Nvim Tree toggle
+-- Nvim-tree -- 
 map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
 
--- Barbar
------------------------------------------------------------------
+-- Barbar --
 -- Move to previous/next
 map('n', '<A-,>', ':BufferPrevious<CR>', opts)
 map('n', '<A-;>', ':BufferNext<CR>', opts)
@@ -45,3 +44,7 @@ map('n', '<C-p>', ':BufferPick<CR>', opts)
 map('n', '<Space>bb', ':BufferOrderByBufferNumber<CR>', opts)
 map('n', '<Space>bd', ':BufferOrderByDirectory<CR>', opts)
 map('n', '<Space>bl', ':BufferOrderByLanguage<CR>', opts)
+
+-- Telescope --
+map('n', '<Space>ff', ':Telescope find_files<CR>', opts)
+map('n', '<Space>fg', ':Telescope live_grep<CR>', opts)

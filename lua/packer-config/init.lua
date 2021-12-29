@@ -5,14 +5,18 @@ return require'packer'.startup(function()
     use 'EdenEast/nightfox.nvim'
     use 'navarasu/onedark.nvim'
 
-    -- IDE
+    -- Required
     use 'kyazdani42/nvim-web-devicons'
+    use 'nvim-lua/plenary.nvim'
+
+    -- IDE
     use 'kyazdani42/nvim-tree.lua'
     use 'nvim-lualine/lualine.nvim'
     use 'romgrk/barbar.nvim'
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
     use 'p00f/nvim-ts-rainbow'
     use 'windwp/nvim-autopairs'
+    use 'nvim-telescope/telescope.nvim'
 
     -- LSP plugins
     use 'neovim/nvim-lspconfig'

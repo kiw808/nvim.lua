@@ -15,6 +15,7 @@
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
     - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- [telescope](https://github.com/nvim-telescope/telescope.nvim)
 
 **Language servers**
 
