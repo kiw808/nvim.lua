@@ -6,6 +6,8 @@
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [lspkind-nvim](https://github.com/onsails/lspkind-nvim)
+- [lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [barbar](https://github.com/romgrk/barbar.nvim)
 
 **Language servers**
 

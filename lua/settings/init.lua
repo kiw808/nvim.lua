@@ -22,3 +22,5 @@ o.number = true
 o.cursorline = true
 
 o.hidden = true
+
+o.mouse = 'a'

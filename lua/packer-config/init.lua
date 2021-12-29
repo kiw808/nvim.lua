@@ -8,7 +8,10 @@ return require'packer'.startup(function()
     -- IDE
     use 'kyazdani42/nvim-web-devicons'
     use 'kyazdani42/nvim-tree.lua'
+    use 'nvim-lualine/lualine.nvim'
+    use 'romgrk/barbar.nvim'
 
+    -- LSP plugins
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
     use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
