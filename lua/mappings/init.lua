@@ -1,4 +1,5 @@
 local map = vim.api.nvim_set_keymap
+local buf_map = vim.api.nvim_buf_set_keymap
 local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = ' '
@@ -50,3 +51,17 @@ map('n', '<Space>bl', ':BufferOrderByLanguage<CR>', opts)
 -- Telescope --
 map('n', '<Space>ff', ':Telescope find_files<CR>', opts)
 map('n', '<Space>fg', ':Telescope live_grep<CR>', opts)
+
+-- Toggleterm --
+function _G.set_terminal_keymaps()
+  local opts = {noremap = true}
+  buf_map(0, 't', '<esc>', [[<C-\><C-n>]], opts)
+  buf_map(0, 't', 'jk', [[<C-\><C-n>]], opts)
+  buf_map(0, 't', '<C-h>', [[<C-\><C-n><C-W>h]], opts)
+  buf_map(0, 't', '<C-j>', [[<C-\><C-n><C-W>j]], opts)
+  buf_map(0, 't', '<C-k>', [[<C-\><C-n><C-W>k]], opts)
+  buf_map(0, 't', '<C-l>', [[<C-\><C-n><C-W>l]], opts)
+end
+
+-- if you only want these mappings for toggle term use term://*toggleterm#* instead
+vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')

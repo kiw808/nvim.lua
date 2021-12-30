@@ -43,6 +43,7 @@ local servers = {
     'html',
     'intelephense',
     'cssls',
+    'rescriptls'
 }
 
 for _, name in pairs(servers) do

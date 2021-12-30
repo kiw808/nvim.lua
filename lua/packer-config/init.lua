@@ -17,6 +17,7 @@ return require'packer'.startup(function()
     use 'p00f/nvim-ts-rainbow'
     use 'windwp/nvim-autopairs'
     use 'nvim-telescope/telescope.nvim'
+    use "akinsho/toggleterm.nvim"
 
     -- LSP plugins
     use 'neovim/nvim-lspconfig'
