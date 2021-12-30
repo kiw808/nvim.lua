@@ -13,11 +13,13 @@
   - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
   - [lspkind-nvim](https://github.com/onsails/lspkind-nvim)
   - [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim)
+  - [vim-recript](https://github.com/rescript-lang/vim-rescript)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [barbar](https://github.com/romgrk/barbar.nvim)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
   - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
   - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
+  - [nvim-treesitter-recript](https://github.com/nkrkv/nvim-treesitter-rescript)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
 

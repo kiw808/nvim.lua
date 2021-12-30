@@ -14,6 +14,7 @@ require'nvim-treesitter.configs'.setup {
         'json',
         'yaml',
         'markdown',
+        'rescript',
     },
 
     sync_install = false,

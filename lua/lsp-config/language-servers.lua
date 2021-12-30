@@ -30,6 +30,7 @@ local on_attach = function(client, bufnr)
   buf_set_keymap('n', ']d', '<cmd>lua vim.diagnostic.goto_next()<CR>', opts)
   buf_set_keymap('n', '<space>q', '<cmd>lua vim.diagnostic.setloclist()<CR>', opts)
   buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
+  buf_set_keymap('n', '<space>rf', ':RescriptFormat<CR>', opts)
 
 end
 
@@ -56,7 +57,13 @@ end
 
 local enhance_server_opts = {
   -- Provide settings that should only apply to the "eslintls" server
-  ["eslintls"] = function(opts)
+  ["rescriptls"] = function(opts)
+      opts.cmd = {
+        'node',
+        '/home/pierremu/.local/share/nvim/site/pack/packer/start/vim-rescript/server/out/server.js',
+        '--stdio'
+      }
+      opts.filetypes = { "rescript" }
   end,
 }
 

@@ -27,4 +27,6 @@ return require'packer'.startup(function()
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'onsails/lspkind-nvim'
     use 'jose-elias-alvarez/null-ls.nvim'
+    use 'rescript-lang/vim-rescript'
+    use 'nkrkv/nvim-treesitter-rescript'
 end)
