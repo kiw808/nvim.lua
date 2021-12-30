@@ -32,12 +32,23 @@ local on_attach = function(client, bufnr)
   buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
   buf_set_keymap('n', '<space>rf', ':RescriptFormat<CR>', opts)
 
+  -- lspsaga
+  local map = vim.api.nvim_buf_set_keymap
+  map(0, "n", "<space>rn", "<cmd>Lspsaga rename<cr>", opts)
+  map(0, "n", "<leader>ca", "<cmd>Lspsaga code_action<cr>", opts)
+  map(0, "n", "K",  "<cmd>Lspsaga hover_doc<cr>", opts)
+  map(0, "n", "go", "<cmd>Lspsaga show_line_diagnostics<cr>", opts)
+  map(0, "n", "gj", "<cmd>Lspsaga diagnostic_jump_next<cr>", opts)
+  map(0, "n", "gk", "<cmd>Lspsaga diagnostic_jump_prev<cr>", opts)
+  map(0, "n", "gs", "<cmd>lua require('lspsaga.signaturehelp').signature_help()<CR>", opts)
+  map(0, "n", "gh", "<cmd>lua require'lspsaga.provider'.lsp_finder()<CR>", opts)
 end
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 
 local servers = {
+    'sumneko_lua',
     'pyright',
     'tsserver',
     'html',

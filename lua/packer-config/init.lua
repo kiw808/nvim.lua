@@ -27,6 +27,7 @@ return require'packer'.startup(function()
     use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'onsails/lspkind-nvim'
+    use { 'tami5/lspsaga.nvim', branch = 'nvim6.0' }
     use 'jose-elias-alvarez/null-ls.nvim'
     use 'rescript-lang/vim-rescript'
     use 'nkrkv/nvim-treesitter-rescript'
