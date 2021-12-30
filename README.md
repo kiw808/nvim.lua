@@ -13,6 +13,7 @@
   - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
   - [lspkind-nvim](https://github.com/onsails/lspkind-nvim)
   - [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim)
+  - [lspsaga](https://github.com/tami5/lspsaga.nvim)
   - [vim-rescript](https://github.com/rescript-lang/vim-rescript)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [barbar](https://github.com/romgrk/barbar.nvim)
