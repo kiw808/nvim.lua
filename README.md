@@ -15,6 +15,7 @@
 - [barbar](https://github.com/romgrk/barbar.nvim)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
     - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
+    - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
 
