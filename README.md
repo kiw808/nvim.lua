@@ -8,6 +8,7 @@
 
 - [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+    - [lsp-installer](https://github.com/williamboman/nvim-lsp-installer)
     - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
     - [lspkind-nvim](https://github.com/onsails/lspkind-nvim)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
