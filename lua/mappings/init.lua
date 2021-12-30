@@ -9,7 +9,7 @@ map('n', '<C-l>', '<C-w>l', opts)
 map('n', '<C-j>', '<C-w>j', opts)
 map('n', '<C-k>', '<C-w>k', opts)
 
--- Nvim-tree -- 
+-- Nvim-tree --
 -- map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
 map('n', '<leader>e', "<cmd>lua require('barbar-config.tree').open()<CR>", opts)
 map('n', '<leader>ec', "<cmd>lua require('barbar-config.tree').close()<CR>", opts)
@@ -20,7 +20,7 @@ map('n', '<A-,>', ':BufferPrevious<CR>', opts)
 map('n', '<A-;>', ':BufferNext<CR>', opts)
 -- Re-order to previous/next
 map('n', '<A-<>', ':BufferMovePrevious<CR>', opts)
-map('n', '<A->>', ' :BufferMoveNext<CR>', opts)
+map('n', '<A->>', ':BufferMoveNext<CR>', opts)
 -- Goto buffer in position...
 map('n', '<A-1>', ':BufferGoto 1<CR>', opts)
 map('n', '<A-2>', ':BufferGoto 2<CR>', opts)
