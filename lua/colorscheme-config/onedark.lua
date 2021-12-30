@@ -1,2 +1,2 @@
-vim.g.onedark_style = 'dark'
+vim.g.onedark_style = 'cool'
 require('onedark').setup()
