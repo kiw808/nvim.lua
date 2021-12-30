@@ -9,6 +9,10 @@ local on_attach = function(client, bufnr)
   -- Enable completion triggered by <c-x><c-o>
   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
 
+  client.resolved_capabilities.document_formatting = false
+  client.resolved_capabilities.document_range_formatting = false
+
+
   -- Mappings.
   local opts = { noremap=true, silent=true }
 
@@ -35,7 +39,6 @@ capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 local servers = {
     'pyright',
     'tsserver',
-    'sumneko_lua',
     'html',
     'intelephense',
     'cssls',
@@ -54,11 +57,6 @@ end
 local enhance_server_opts = {
   -- Provide settings that should only apply to the "eslintls" server
   ["eslintls"] = function(opts)
-    opts.settings = {
-      format = {
-        enable = true,
-      },
-    }
   end,
 }
 
