@@ -18,6 +18,7 @@ return require'packer'.startup(function()
     use 'windwp/nvim-autopairs'
     use 'nvim-telescope/telescope.nvim'
     use 'akinsho/toggleterm.nvim'
+    use 'tpope/vim-fugitive'
     use 'lewis6991/gitsigns.nvim'
 
     -- LSP plugins

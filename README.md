@@ -14,6 +14,7 @@
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [toggleterm](https://github.com/akinsho/toggleterm.nvim)
+- [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 
 **Treesitter**
