@@ -37,3 +37,5 @@
 
 - [nightfox](https://github.com/EdenEast/nightfox.nvim)
 - [onedark](https://github.com/navarasu/onedark.nvim)
+- [zephyr](https://github.com/glepnir/zephyr-nvim)
+- [material](https://github.com/marko-cerovac/material.nvim)
