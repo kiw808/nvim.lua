@@ -68,7 +68,6 @@ for _, name in pairs(servers) do
 end
 
 local enhance_server_opts = {
-  -- Provide settings that should only apply to the "eslintls" server
   ["rescriptls"] = function(opts)
       opts.cmd = {
         'node',
@@ -80,14 +79,12 @@ local enhance_server_opts = {
 }
 
 lsp_installer.on_server_ready(function(server)
-  -- Specify the default options which we'll use to setup all servers
   local opts = {
     on_attach = on_attach,
     capabilities = capabilities,
   }
 
   if enhance_server_opts[server.name] then
-    -- Enhance the default opts with the server-specific ones
     enhance_server_opts[server.name](opts)
   end
 

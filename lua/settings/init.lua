@@ -1,4 +1,5 @@
 local o = vim.opt
+local wo = vim.wo
 
 o.expandtab = true
 o.smarttab = true
@@ -19,6 +20,7 @@ o.termguicolors = true
 
 o.number = true
 -- o.relativenumber = true
+wo.signcolumn = 'yes'
 o.cursorline = true
 
 o.hidden = true
