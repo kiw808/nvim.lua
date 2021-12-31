@@ -4,7 +4,10 @@ require('mappings')
 require('packer-config')
 
 -- Colorsceme
+-- require('colorscheme-config.nightfox')
 require('colorscheme-config.onedark')
+-- require('colorscheme-config.zephyr')
+-- require('colorscheme-config.material')
 
 -- IDE basics
 require('nvim-tree-config')
