@@ -13,9 +13,8 @@ require('barbar-config')
 require('treesitter-config')
 require('autopairs-config')
 require('toggleterm-config')
+require('gitsigns-config')
 
 -- LSP
-require('lsp-config.language-servers')
-require('lsp-config.nvim-cmp')
-require('lsp-config.null-ls')
+require('lsp-config')
 require('lspsaga-config')

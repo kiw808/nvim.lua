@@ -4,10 +4,26 @@
 
 - Neovim >= 0.6.0
 - npm
+- ripgrep
 
 ## Plugins
 
 - [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
+- [lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [barbar](https://github.com/romgrk/barbar.nvim)
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- [telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [toggleterm](https://github.com/akinsho/toggleterm.nvim)
+- [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
+
+**Treesitter**
+
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+  - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
+  - [nvim-treesitter-rescript](https://github.com/nkrkv/nvim-treesitter-rescript)
+
+**LSP**
+
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
   - [lsp-installer](https://github.com/williamboman/nvim-lsp-installer)
   - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
@@ -15,25 +31,6 @@
   - [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim)
   - [lspsaga](https://github.com/tami5/lspsaga.nvim)
   - [vim-rescript](https://github.com/rescript-lang/vim-rescript)
-- [lualine](https://github.com/nvim-lualine/lualine.nvim)
-- [barbar](https://github.com/romgrk/barbar.nvim)
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-  - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
-  - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
-  - [nvim-treesitter-rescript](https://github.com/nkrkv/nvim-treesitter-rescript)
-- [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
-- [telescope](https://github.com/nvim-telescope/telescope.nvim)
-- [toggleterm](https://github.com/akinsho/toggleterm.nvim)
-
-**Language servers**
-
-```shell
-# pyright
-npm i -g pyright
-
-# tsserver
-npm i -g typescript typescript-language-server
-```
 
 ## Colorschemes
 
