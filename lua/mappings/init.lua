@@ -51,6 +51,9 @@ map('n', '<Space>bl', ':BufferOrderByLanguage<CR>', opts)
 -- Telescope --
 map('n', '<Space>ff', ':Telescope find_files<CR>', opts)
 map('n', '<Space>fg', ':Telescope live_grep<CR>', opts)
+map('n', '<Space>fd', ':Telescope diagnostics<CR>', opts)
+map('n', '<Space>fk', ':Telescope keymaps<CR>', opts)
+map('n', '<Space>fb', ':Telescope buffers<CR>', opts)
 
 -- Toggleterm --
 function _G.set_terminal_keymaps()
