@@ -22,6 +22,8 @@ return require'packer'.startup(function()
     use 'akinsho/toggleterm.nvim'
     use 'tpope/vim-fugitive'
     use 'lewis6991/gitsigns.nvim'
+    use 'sunjon/shade.nvim'
+    use 'lukas-reineke/indent-blankline.nvim'
 
     -- LSP plugins
     use 'neovim/nvim-lspconfig'

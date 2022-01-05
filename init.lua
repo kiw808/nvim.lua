@@ -15,8 +15,10 @@ require('lualine-config')
 require('barbar-config')
 require('treesitter-config')
 require('autopairs-config')
+require('indent-config')
 require('toggleterm-config')
 require('gitsigns-config')
+require('shade-config')
 
 -- LSP
 require('lsp-config')
