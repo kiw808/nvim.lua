@@ -16,6 +16,8 @@
 - [toggleterm](https://github.com/akinsho/toggleterm.nvim)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
+- [shade](https://github.com/sunjon/Shade.nvim)
+- [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 
 **Treesitter**
 
