@@ -4,6 +4,6 @@ require("indent_blankline").setup {
     show_current_context = true,
     show_current_context_start = true,
     show_trailing_blankline_indent = false,
-    filetype_exclude = {"rescript", "packer", "gitcommit"},
+    filetype_exclude = {"NvimTree", "rescript", "packer", "gitcommit"},
     buftype_exclude = {"terminal", "help", "packer", "telescopeprompt"},
 }
