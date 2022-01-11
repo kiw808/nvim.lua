@@ -19,6 +19,7 @@ require('indent-config')
 require('toggleterm-config')
 require('gitsigns-config')
 require('shade-config')
+require('comment-config')
 
 -- LSP
 require('lsp-config')

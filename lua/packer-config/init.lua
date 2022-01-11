@@ -24,6 +24,7 @@ return require'packer'.startup(function()
     use 'lewis6991/gitsigns.nvim'
     use 'sunjon/shade.nvim'
     use 'lukas-reineke/indent-blankline.nvim'
+    use 'numToStr/Comment.nvim'
 
     -- LSP plugins
     use 'neovim/nvim-lspconfig'
