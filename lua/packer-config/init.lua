@@ -4,7 +4,6 @@ return require'packer'.startup(function()
     -- Colorschemes
     use 'EdenEast/nightfox.nvim'
     use 'navarasu/onedark.nvim'
-    use 'glepnir/zephyr-nvim'
     use 'marko-cerovac/material.nvim'
 
     -- Required
