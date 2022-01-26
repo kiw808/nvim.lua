@@ -19,6 +19,7 @@ require('toggleterm-config')
 require('gitsigns-config')
 require('shade-config')
 require('comment-config')
+require('surround-config')
 
 -- LSP
 require('lsp-config')
