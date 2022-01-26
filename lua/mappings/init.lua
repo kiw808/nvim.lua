@@ -50,6 +50,7 @@ map('n', '<Space>bl', ':BufferOrderByLanguage<CR>', opts)
 
 -- Telescope --
 map('n', '<Space>ff', ':Telescope find_files<CR>', opts)
+map('n', '<Space>fi', ':Telescope git_files<CR>', opts)
 map('n', '<Space>fg', ':Telescope live_grep<CR>', opts)
 map('n', '<Space>fd', ':Telescope diagnostics<CR>', opts)
 map('n', '<Space>fk', ':Telescope keymaps<CR>', opts)
